@@ -1,0 +1,71 @@
+h1 {
+    color: white;
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.product-container {
+    /* text-align: center; */
+    width: 100%
+}
+
+.label-input {
+    display: grid;
+    gap: 0.25rem
+}
+
+.product-form {
+    display: grid;
+    gap: 1rem;
+    margin-right: 2rem
+}
+
+.product-form input,
+.product-form button,
+.product-form select {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+input[type="file"] {
+    padding: 0;
+}
+
+.product-form button {
+    background-color: #26D974;
+    font-weight: 450;
+}
+
+/* table,
+tr,
+td,
+th {
+    border: 1px solid white;
+} */
+
+
+
+td {
+    padding: 0.75rem 1rem;
+    /* text-align: center; */
+    text-wrap: wrap;
+    max-width: 22rem;
+}
+
+tr.head {
+    background-color: white;
+    color: #191C24;
+}
+
+
+
+tr.product img {
+    width: 50px;
+}
+
+.color {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}

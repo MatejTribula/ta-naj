@@ -1,0 +1,42 @@
+@import url(variables.css);
+
+body {
+    background-color: var(--clr-bg);
+}
+
+.full-width-card {
+    background-image: url(../images/product_page_card_1.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.full-width-card h3 {
+    line-height: 85%;
+    margin-bottom: 1rem;
+}
+
+.full-width-card>* {
+    max-width: 65ch;
+}
+
+.items>.container {
+    gap: 20px;
+}
+
+
+
+
+@media screen and (max-width: 1184px) {
+    .full-width-card>* {
+        max-width: 40ch;
+    }
+}
+
+@media screen and (max-width: 712px) {
+    .full-width-card {
+        display: none;
+    }
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --clr-black: #262626;
+    --clr-white: #fcfcfc;
+    --clr-bg: #ECDED3;
+
+    --clr-red: #FF7C7C;
+    --clr-green: #CFE7C4;
+
+    --clr-lightorange: #FFCB8C;
+    --clr-redpink: #FA819E;
+
+    --clr-negative: #ff4747;
+    --clr-positive: #94E171;
+
+    --box-shadow: 4px 2px 24px rgba(0, 0, 0, 0.2);
+
+    --border-radius-small: 5px;
+    --border-radius-regular: 15px;
+
+
+    --con-width-desktop: 1120px;
+    --con-width-tablet: 680px;
+}

@@ -1,0 +1,20 @@
+@import url(variables.css);
+
+a:hover,
+header i:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.item-card {
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(38, 38, 38, 0.9);
+    cursor: pointer;
+}
+
+.hamburger-manu {
+    transition: all 0.5 ease-in;
+}

@@ -1,0 +1,277 @@
+@import url(variables.css);
+
+body {
+    background-color: var(--clr-white);
+}
+
+/* HERO */
+
+main {
+    height: 70vh;
+    background-image: url(../images/hero_img.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero-title {
+    height: 100%;
+    align-self: center;
+    width: var(--con-width-desktop);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-title h1:nth-of-type(1) {
+    color: var(--clr-lightorange);
+}
+
+.hero-title h1:nth-of-type(2) {
+    color: var(--clr-red);
+}
+
+.hero-title h1:nth-of-type(3) {
+    color: var(--clr-redpink);
+}
+
+/* ITEM SHOWCASE */
+
+.items {
+    background-color: var(--clr-white);
+}
+
+.items a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-ic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-ic i {
+    color: var(--clr-white);
+    background-color: var(--clr-black);
+    padding: 1rem 1.25rem;
+    border-radius: 50%;
+}
+
+/* SORBET a GELATO */
+
+.sg-section {
+    background-color: var(--clr-bg);
+}
+
+/* .sg-section>.container {
+    row-gap: 5rem;
+} */
+
+.sg-section .container>* {
+    grid-column: span 12;
+}
+
+.sg-card {
+    display: flex;
+    border-radius: var(--border-radius-regular);
+    box-shadow: var(--box-shadow);
+}
+
+.sgc-container {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.sgc-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.sgc-gelato .sgc-content {
+    padding-right: 2rem;
+}
+
+.sgc-sorbet .sgc-content {
+    padding-left: 3rem;
+}
+
+.sg-card img {
+    max-height: 200px;
+}
+
+.sgc-diff {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.sgc-diff>* {
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+    padding: 4px 0.5rem;
+    border-radius: 5px;
+}
+
+
+.sgc-gelato {
+    background-color: var(--clr-red);
+    border-radius: 15px 0 0 15px;
+}
+
+.sgc-sorbet {
+    background-color: var(--clr-green);
+    border-radius: 0 15px 15px 0;
+}
+
+/* .sg-prep {
+    row-gap: 3rem;
+} */
+
+.big-img.one>.bi-shape,
+.big-img.three>.bi-shape {
+    background-color: var(--clr-red);
+}
+
+.sml-img.one>.si-shape,
+.sml-img.three>.si-shape {
+    background-color: var(--clr-green);
+}
+
+.big-img.two>.bi-shape {
+    background-color: var(--clr-green);
+}
+
+.sml-img.two>.si-shape {
+    background-color: var(--clr-red);
+}
+
+
+.big-img.one>.bi-image {
+    background-image: url(../images/bi_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sml-img.one>.si-image {
+    background-image: url(../images/si_1.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.big-img.two>.bi-image {
+    background-image: url(../images/bi_2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sml-img.two>.si-image {
+    background-image: url(../images/si_2.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.big-img.three>.bi-image {
+    background-image: url(../images/bi_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sml-img.three>.si-image {
+    background-image: url(../images/si_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media screen and (max-width: 1184px) {
+
+    /* HERO */
+    main {
+        background-image: url(../images/hero_cropped.png);
+        height: 50vh;
+    }
+
+    .hero-title {
+        width: var(--con-width-tablet);
+    }
+
+    /* ITEMS */
+    .items .container {
+        gap: 1rem;
+    }
+
+
+    /* .sg-section>.container {
+        row-gap: 4rem;
+    } */
+
+    .sg-section .container>* {
+        grid-column: span 8;
+    }
+
+    /* SORBET GELATO */
+    .sg-card {
+        display: flex;
+        border-radius: 0px;
+        gap: 16px;
+        box-shadow: none;
+    }
+
+    .sgc-container {
+        padding: 0;
+        border-radius: var(--border-radius-regular);
+    }
+
+    .sgc-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 2rem;
+        box-shadow: var(--box-shadow);
+        border-radius: var(--border-radius-regular);
+    }
+
+    .sg-card img {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 712px) {
+    main {
+        height: 80vh;
+        background-image: url(../images/mobile_hero.png);
+    }
+
+    .hero-title {
+        width: 100%;
+        justify-content: center;
+        align-items: start;
+        padding-top: 2rem;
+    }
+
+
+    .sg-prep {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .sg-card {
+        flex-direction: column;
+    }
+
+    .sgc-content {
+        padding: 1rem !important;
+    }
+
+
+}

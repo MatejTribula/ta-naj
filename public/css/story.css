@@ -1,0 +1,23 @@
+@import url(variables.css);
+
+body {
+    background-color: var(--clr-bg);
+}
+
+section.story {
+    background-color: var(--clr-black);
+}
+
+section.story * {
+    color: var(--clr-white);
+}
+
+.bi-shape,
+.si-shape {
+    background-color: var(--clr-bg);
+}
+
+.bi-image,
+.si-image {
+    background-color: aqua;
+}

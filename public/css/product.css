@@ -1,0 +1,88 @@
+@import url(variables.css);
+
+body {
+    background-color: var(--clr-bg);
+}
+
+.product-image {
+    background-color: var(--clr-red);
+    grid-column: span 5;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    border-radius: var(--border-radius-regular);
+    box-shadow: var(--box-shadow);
+}
+
+.product-content {
+    grid-column: 7/13;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pc-titles>p {
+    font-size: 1.125rem;
+    font-weight: medium;
+}
+
+
+.ic-composition {
+    margin: 1.5rem 0;
+}
+
+.product-controls {
+    display: flex;
+    gap: 0.75rem;
+}
+
+
+
+.price {
+    margin-bottom: 1rem;
+}
+
+
+
+
+@media screen and (max-width: 1184px) {
+    .product-image {
+        grid-column: span 3;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .product-content {
+        grid-column: 5/9;
+    }
+
+
+}
+
+
+@media screen and (max-width: 712px) {
+    section {
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .product-image {
+        border-radius: 0;
+        padding: 2rem 0;
+    }
+
+    .product-content {
+        padding: 2rem 1rem 4rem 1rem;
+    }
+
+    .price {
+        font-size: 1.5rem;
+    }
+
+    .pc-titles>p {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,49 @@
+@import url(variables.css);
+
+/* DROPDOWN MENU */
+
+.dropdown-toggle {
+    background: none;
+    border: none;
+    position: relative;
+
+}
+
+ul li .dropdown .dropdown-menu {
+    position: absolute;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 2.5rem;
+    right: 0;
+    background-color: var(--clr-white);
+    border-radius: var(--border-radius-small);
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+    min-width: 200px;
+}
+
+.dropdown-menu button {
+    padding: 0;
+}
+
+.dropdown-item {
+    color: var(--clr-black);
+}
+
+button.dropdown-item {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--clr-negative);
+    padding: 0;
+    text-align: left;
+}
+
+li .dropdown i {
+    color: var(--clr-white);
+    position: relative;
+}
