@@ -1,4 +1,4 @@
-# Full-stack web application for ice cream shop TA NAJ
+# Full-stack web application for TA NAJ
 
 This project was built from the ground up for my graduation project. Individual pages were designed in Figma and then built in Laravel accordingly.
 
