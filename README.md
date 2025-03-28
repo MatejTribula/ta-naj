@@ -1,11 +1,20 @@
 # Full-stack web application for ice cream shop TA NAJ
 
+This project was built from the ground up for my graduation project. Individual pages were designed in Figma and then built in Laravel accordingly.
+
+🔗 [Visit the website](http://ta-naj.free.nf/?i=1)
 
 ## Technolgies used
 - Laravel (scroll lower to see more)
 - MySQL database
 
 
+## Project Overview
+- User is able to access information about the company (Location, Social Media, etc. )
+- User can create an account and login
+- Admin has can access dashboard where they can add, remove and edit all products
+- Logged in user can add items to their cart
+- Logged in user can order the items and pay for them using Stripe
 
 
 
