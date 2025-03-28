@@ -1,12 +1,23 @@
-# Full-stack web application for TA NAJ
+# TA NAJ
 
-This project was built from the ground up for my graduation project. Individual pages were designed in Figma and then built in Laravel accordingly.
+Full-stack web application designed and built for a company selling ice cream
 
-🔗 [Visit the website](http://ta-naj.free.nf/?i=1)
+🔗 [View demo](http://ta-naj.free.nf/?i=1)
 
 ## Technolgies used
-- Laravel (scroll lower to see more)
-- MySQL database
+- [![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+- [![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+- [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+## Other tools used
+- [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/)
+- [![Adobe Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black)](https://www.adobe.com/products/photoshop.html)
+    
+
+
+
 
 
 ## Project Overview
